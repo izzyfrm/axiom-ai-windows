@@ -1,0 +1,14 @@
+{
+  "name": "axiom-ai-desktop",
+  "private": true,
+  "version": "9.5.0",
+  "description": "Axiom AI desktop app for Windows",
+  "scripts": {
+    "tauri": "tauri",
+    "dev": "tauri dev",
+    "build": "tauri build --bundles nsis"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2"
+  }
+}
